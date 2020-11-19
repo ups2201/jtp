@@ -6,4 +6,8 @@ public class Square {
 	public Square(double l){
 		this.l = l;
 	}
+
+	public double getArea(){
+		return this.l * this.l;
+	}
 }

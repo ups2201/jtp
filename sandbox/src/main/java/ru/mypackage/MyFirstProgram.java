@@ -6,21 +6,14 @@ public class MyFirstProgram {
 		hello("alexey");
 
 		Square s = new Square(5);
-		System.out.println(area(s));
+		System.out.println(s.getArea());
 
 		Rectangle r = new Rectangle(4,6);
-		System.out.println(area(r));
+		System.out.println(r.getArea());
 	}
 
 	public static void hello(String text) {
 		System.out.println("Hello, " + text);
 	}
 
-	public static double area(Square s){
-		return s.l*s.l;
-	}
-
-	public static double area(Rectangle r){
-		return r.a*r.b;
-	}
 }

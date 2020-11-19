@@ -8,4 +8,8 @@ public class Rectangle {
 		this.a = a;
 		this.b = b;
 	}
+
+	public double getArea(){
+		return this.a * this.b;
+	}
 }
